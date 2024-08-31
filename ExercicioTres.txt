@@ -1,0 +1,20 @@
+3) Considerando o trecho de codigo, temos que:
+
+int INDICE = 12, SOMA = 0, K = 1;
+
+while (K < INDICE) {        // Enquanto K for menor que INDICE soma 1 iteração
+    K = K + 1;              // K fica em loop até chegar a 12 iterações e se igualar a INDICE
+    SOMA = SOMA + K;        // Valor de K é somado a variavel SOMA, que guarda o valor anterior, inicialmente 0.
+}
+System.out.println(SOMA);
+
+A cada iteração de K < INDICE, o valor é armazenado em Soma, a sequencia de soma é:
+
+K = 1 -> SOMA = 0.
+K = 2 -> SOMA = 2.
+K = 3 -> SOMA = 5.
+k = 4 -> SOMA = 14.
+...
+
+Por fim ao final das 12 iterações o valor da variavel SOMA = 77.
+Será impresso o valor 77.
